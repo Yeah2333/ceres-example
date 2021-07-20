@@ -10,3 +10,6 @@ include_directories(${CERES_INCLUDE_DIRS})
 
 add_executable(helloword src/helloword.cpp)
 target_link_libraries(helloword ${CERES_LIBRARIES})
+
+add_executable(powell src/powell.cpp)
+target_link_libraries(powell ${CERES_LIBRARIES})
